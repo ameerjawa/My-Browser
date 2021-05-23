@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>activity_about.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_about.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#009688&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.about&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView3&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;246dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;115dp&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;sans-serif-condensed-light&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;MyBrowser&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">app:autoSizeTextType</span><span class="s2">=&quot;uniform&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.557&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.37&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView4&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;149dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;29dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Version:   1.1.1&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">app:autoSizeTextType</span><span class="s2">=&quot;uniform&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.557&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.447&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;190dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;139dp&quot;</span>
+        <span class="s1">android:onClick</span><span class="s2">=&quot;sharebtn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Share&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#009688&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:backgroundTint</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">app:cornerRadius</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.756&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;119dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;102dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.147&quot;</span>
+        <span class="s1">app:srcCompat</span><span class="s2">=&quot;@mipmap/ic_launcher&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView5&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;207dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;50dp&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;sans-serif-condensed-light&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Ziki  $$  Ameer&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;italic&quot;</span>
+        <span class="s1">app:autoSizeTextType</span><span class="s2">=&quot;uniform&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.553&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;1.0&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span></pre>
+</body>
+</html>

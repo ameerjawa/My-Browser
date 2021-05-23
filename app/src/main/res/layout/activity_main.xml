@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edittext_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.1"
+            app:icon="@drawable/ic_action_back" />
+
+
+        <Button
+
+            android:id="@+id/forward"
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.1"
+            app:icon="@drawable/ic_action_forward" />
+
+        <Button
+            android:id="@+id/reload"
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.1"
+            app:icon="@drawable/ic_action_name" />
+
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/wv_brow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80"></WebView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <!--
+
+        <Button
+            android:layout_weight="0.25"
+            android:id="@+id/gotoligin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gotologin"
+            android:text="login" />
+            !-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
